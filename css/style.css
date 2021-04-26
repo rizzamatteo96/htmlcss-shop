@@ -15,20 +15,21 @@
     margin: 20px auto;
 }
 
+/* row */
+.row:not(:first-child){
+    margin-top: 50px;
+}
+
+/* article */
 .article {
     float: left;
     width: calc((100% - 20px) / 3);
-    margin-bottom: 20px;
 }
 
 .center{
     margin: 0 10px;
 }
 
-/* row */
-.row:not(:first-child){
-    margin-top: 50px;
-}
 
 /* top part */
 .box-top{
