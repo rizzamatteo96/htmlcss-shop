@@ -51,6 +51,10 @@
     display: inline-block;
 }
 
+.article:hover{
+    cursor: pointer;
+}
+
 .heart{
     position: absolute;
     top: 5px;
@@ -58,6 +62,10 @@
     background-color: #fff;
     font-size: 50px;
     padding: 0 15px;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .bottom-left{
@@ -81,6 +89,39 @@
     background-color: #3e8158;
 }
 
+/* size section */
+.size {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.size ul{
+    list-style: none;
+}
+
+.size ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.article:hover .size{
+    display: block;
+}
+
+.article:hover .bottom-left{
+    bottom: 70px;
+}
 
 /* bottom part */
 .box-bottom{
