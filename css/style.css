@@ -25,6 +25,10 @@
     margin: 0 10px;
 }
 
+/* row */
+.row:not(:first-child){
+    margin-top: 50px;
+}
 
 /* top part */
 .box-top{
@@ -100,42 +104,3 @@
     background-color: #75ac51;
     padding: 15px;
 }
-
-/* DEBUG ----- rimuovere dopo aver verificato il funzionamento */
-/* .debug .main-container{
-    background-color: lightgreen;
-}
-
-.debug .article {
-    height: 300px;
-    background-color: red;
-    border: 1px solid black;
-}
-
-.debug .box-top{
-    height: 90%;
-    background-color: yellow;
-}
-
-.debug .box-bottom{
-    height: 10%;
-    background-color: blue;
-}
-
-.debug .cuore{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-
-.debug .sconto{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-
-.debug .sostenibilita{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-} */
